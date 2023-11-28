@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4944eeed-f3bd-4f59-95f9-ff3acb271173" name="Changes" comment="CloudDataSource">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CachedDataSource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CachedDataSource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Repository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repository.java" afterDir="false" />
+    <list default="true" id="4944eeed-f3bd-4f59-95f9-ff3acb271173" name="Changes" comment="Repository">
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,7 +110,14 @@
       <option name="project" value="LOCAL" />
       <updated>1701177012419</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Repository">
+      <created>1701177370467</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1701177370467</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -121,6 +126,7 @@
     <MESSAGE value="Data added" />
     <MESSAGE value="@Nullable" />
     <MESSAGE value="CloudDataSource" />
-    <option name="LAST_COMMIT_MESSAGE" value="CloudDataSource" />
+    <MESSAGE value="Repository" />
+    <option name="LAST_COMMIT_MESSAGE" value="Repository" />
   </component>
 </project>

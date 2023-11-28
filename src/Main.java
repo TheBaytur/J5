@@ -5,20 +5,18 @@ import org.jetbrains.annotations.Nullable;
 public class Main {
 
     public static void main(String[] args) {
-        MyData data = getMyData();
-        if (data == null){
-            System.out.println("Object was null");
-        } else {
-            System.out.println(data.toString());
-        }
+        DataSourse repository = new Repository(
+                new CloudDataSource(),
+                new CachedDataSource()
+        );
+
+        MyData data = repository.getData();
+        print(data.toString());
     }
 
-//    private static void print(String toString) {
-//    }
-
-
-    @NotNull
-    private static MyData getMyData() {
-        return new MyData(1,"1");
+    private static void print(Object text){
+        System.out.println(text);
     }
+
+
 }
