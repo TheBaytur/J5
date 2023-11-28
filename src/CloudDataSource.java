@@ -1,10 +1,10 @@
 import org.jetbrains.annotations.Nullable;
 
-public class CachedDataSource extends DataSourse{
+public class CloudDataSource extends DataSourse{
 
     @Nullable
     @Override
     public MyData getData(){
-        return null;
+        return new MyData(1, "description_1");
     }
 }
