@@ -1,4 +1,6 @@
-
+import org.jetbrains.annotations.Contract;
+import org.jetbrains.annotations.NotNull;
+import org.jetbrains.annotations.Nullable;
 
 public class Main {
 
@@ -14,7 +16,9 @@ public class Main {
 //    private static void print(String toString) {
 //    }
 
+
+    @NotNull
     private static MyData getMyData() {
-        return null;
+        return new MyData(1,"1");
     }
 }
