@@ -7,4 +7,9 @@ public class CloudDataSource extends DataSourse{
     public MyData getData(){
         return new MyData(1, "description_1");
     }
+
+    @Override
+    public void saveData(MyData data){
+
+    }
 }

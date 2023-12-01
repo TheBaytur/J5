@@ -5,5 +5,7 @@ public abstract class DataSourse {
 
     public abstract MyData getData();
 
-    public abstract void saveData(@NotNull MyData data);
+    public void saveData(@NotNull MyData data){
+
+    }
 }

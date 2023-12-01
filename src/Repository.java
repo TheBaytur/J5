@@ -1,3 +1,5 @@
+import org.jetbrains.annotations.NotNull;
+
 public class Repository extends DataSourse{
 
     private final DataSourse cloudDataSource;
@@ -15,5 +17,10 @@ public class Repository extends DataSourse{
             result = cloudDataSource.getData();
         }
         return result;
+    }
+
+    @Override
+    public void saveData(@NotNull MyData data){
+
     }
 }
