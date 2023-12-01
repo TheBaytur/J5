@@ -1,11 +1,11 @@
 import org.jetbrains.annotations.NotNull;
+import org.jetbrains.annotations.Nullable;
 
-public abstract class DataSourse {
+public interface DataSourse {
 
+    @Nullable
+    MyData getData();
 
-    public abstract MyData getData();
+     void saveData(@NotNull MyData data);
 
-    public void saveData(@NotNull MyData data){
-
-    }
 }
