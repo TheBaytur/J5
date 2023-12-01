@@ -11,6 +11,7 @@ public class Main {
         );
 
         MyData data = repository.getData();
+        repository.getData();
         print(data.toString());
     }
 
