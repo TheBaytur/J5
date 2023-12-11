@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4944eeed-f3bd-4f59-95f9-ff3acb271173" name="Changes" comment="DataSource -&gt; interface">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="4944eeed-f3bd-4f59-95f9-ff3acb271173" name="Changes" comment="interface - implements">
+      <change beforePath="$PROJECT_DIR$/src/CachedDataSource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CachedDataSource.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/CloudDataSource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CloudDataSource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Repository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DataSourse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataSourse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MutableDataSource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MutableDataSource.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -154,7 +155,14 @@
       <option name="project" value="LOCAL" />
       <updated>1701437091250</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="interface - implements">
+      <created>1702297916398</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1702297916398</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -169,6 +177,7 @@
     <MESSAGE value="changed saveData" />
     <MESSAGE value="added repository.getData();" />
     <MESSAGE value="DataSource -&gt; interface" />
-    <option name="LAST_COMMIT_MESSAGE" value="DataSource -&gt; interface" />
+    <MESSAGE value="interface - implements" />
+    <option name="LAST_COMMIT_MESSAGE" value="interface - implements" />
   </component>
 </project>

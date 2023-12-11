@@ -11,8 +11,8 @@ public class CachedDataSource implements DataSourse {
         return null;
     }
 
-    @Override
-    public void saveData(@NotNull MyData data){
-        myData = data;
-    }
+//    @Override
+//    public void saveData(@NotNull MyData data){
+//        myData = data;
+//    }
 }
