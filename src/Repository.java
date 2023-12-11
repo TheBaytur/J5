@@ -1,6 +1,6 @@
 import org.jetbrains.annotations.NotNull;
 
-public class Repository extends DataSourse{
+public class Repository implements DataSourse {
 
     private final DataSourse cloudDataSource;
     private final DataSourse cachedDataSource;

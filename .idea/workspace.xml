@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4944eeed-f3bd-4f59-95f9-ff3acb271173" name="Changes" comment="added repository.getData();">
-      <change beforePath="$PROJECT_DIR$/src/CachedDataSource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CachedDataSource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DataSourse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataSourse.java" afterDir="false" />
+    <list default="true" id="4944eeed-f3bd-4f59-95f9-ff3acb271173" name="Changes" comment="DataSource -&gt; interface">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CloudDataSource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CloudDataSource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Repository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repository.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -146,7 +147,14 @@
       <option name="project" value="LOCAL" />
       <updated>1701436793917</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="DataSource -&gt; interface">
+      <created>1701437091250</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1701437091250</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -160,6 +168,7 @@
     <MESSAGE value="added saveData" />
     <MESSAGE value="changed saveData" />
     <MESSAGE value="added repository.getData();" />
-    <option name="LAST_COMMIT_MESSAGE" value="added repository.getData();" />
+    <MESSAGE value="DataSource -&gt; interface" />
+    <option name="LAST_COMMIT_MESSAGE" value="DataSource -&gt; interface" />
   </component>
 </project>

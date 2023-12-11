@@ -1,6 +1,6 @@
 import org.jetbrains.annotations.Nullable;
 
-public class CloudDataSource extends DataSourse{
+public class CloudDataSource implements DataSourse {
 
     @Nullable
     @Override
@@ -9,7 +9,7 @@ public class CloudDataSource extends DataSourse{
     }
 
     @Override
-    public void saveData(MyData data){
+    public void saveData( MyData data){
 
     }
 }
