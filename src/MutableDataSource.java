@@ -1,10 +1,7 @@
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
-public interface MutableDataSource {
+public interface MutableDataSource<T> extends DataSourse<T>{
 
-    @Nullable
-    MyData getData();
-
-    void saveData(@NotNull MyData data);
+    void saveData(@NotNull T data);
 }

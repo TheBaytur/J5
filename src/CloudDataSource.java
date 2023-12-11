@@ -1,8 +1,8 @@
 import org.jetbrains.annotations.Nullable;
 
-public class CloudDataSource implements DataSourse {
+public class CloudDataSource implements DataSourse<MyData> {
 
-    @Nullable
+
     @Override
     public MyData getData(){
         return new MyData(1, "description_1");

@@ -2,19 +2,19 @@ import org.jetbrains.annotations.NotNull;
 
 import static java.awt.SystemColor.text;
 
-public class Repository extends DataSourse {
+public class Repository<T> implements DataSourse<T> {
 
-    private final DataSourse cloudDataSource;
-    private final DataSourse cachedDataSource;
+    private final DataSourse<T> cloudDataSource;
+    private final MutableDataSource<T> cachedDataSource;
 
-    public Repository(DataSourse cloudDataSource, DataSourse cachedDataSource){
+    public Repository(DataSourse<T> cloudDataSource, MutableDataSource<T> cachedDataSource){
         this.cloudDataSource = cloudDataSource;
         this.cachedDataSource = cachedDataSource;
     }
 
     @Override
-    public MyData getData() {
-        MyData result = cachedDataSource.getData();
+    public T getData() {
+        T result = cachedDataSource.getData();
         if (result == null){
             print("no data in cache");
             result = cloudDataSource.getData();
