@@ -1,6 +1,8 @@
 import org.jetbrains.annotations.NotNull;
 
-public class Repository implements DataSourse {
+import static java.awt.SystemColor.text;
+
+public class Repository extends DataSourse {
 
     private final DataSourse cloudDataSource;
     private final DataSourse cachedDataSource;
@@ -14,13 +16,22 @@ public class Repository implements DataSourse {
     public MyData getData() {
         MyData result = cachedDataSource.getData();
         if (result == null){
+            print("no data in cache");
             result = cloudDataSource.getData();
+            cachedDataSource.saveData(result);
+        } else {
+            print("getting from cache");
         }
         return result;
-    }
-
-    @Override
-    public void saveData(@NotNull MyData data){
 
     }
+
+    private void print(String text) {
+        System.out.println(text);
+    }
+
+//    @Override
+//    public void saveData(@NotNull MyData data){
+//
+//    }
 }
